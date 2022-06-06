@@ -1,0 +1,32 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700&family=Quattrocento+Sans:wght@400;700&display=swap');
+/*    
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
+	
+	-- for logo --
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Alfa Slab One', cursive;
+    ---------------------------------------------
+
+*/
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #292F36;
+}
+
