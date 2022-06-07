@@ -52,7 +52,9 @@
 
 
 /*header nav*/
-
+.header__burger{
+	display: none;
+}
 .header__nav ul{
 	display: flex;
 }
