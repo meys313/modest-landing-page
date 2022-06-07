@@ -3,30 +3,41 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Шрифты, отмена стандартных отступов -->
+	
+	<!-- Шрифты, обнуление дефолт стилей -->
 	<link rel="stylesheet" href="assets/css/config.css">
+
+	<!-- slick стили -->
+	<link rel="stylesheet" href="assets/libs/slick/slick.css">
+	<link rel="stylesheet" href="assets/libs/slick/slick-theme.css">
+
 	<!-- Общие стили -->
 	<link rel="stylesheet" href="assets/css/style.css">
-	<!-- стили для разной ширины экрана -->
+
+	<!-- @media max-width -->
+	<link rel="stylesheet" href="assets/css/media/w1200.css">
+
 	<title>Modest</title>
-	<script src="https://kit.fontawesome.com/a3c0ffdb65.js" crossorigin="anonymous"></script> <!-- иконки -->
+
+	<!-- иконки font awseome -->
+	<script src="https://kit.fontawesome.com/a3c0ffdb65.js" crossorigin="anonymous"></script> 
 </head>
 <body>
 	<header class="header">
 		<div class="container">
-			<div class="header_logo">
+			<div class="header__logo">
 				<img src="assets/img/logo.png">
 			</div>
 
-			<nav class="header_nav">
+			<nav class="header__nav">
 				<ul>
-					<li class="nav_list"><a href="#">home</a></li>
-					<li class="nav_list"><a href="#">about</a></li>
-					<li class="nav_list"><a href="#">work</a></li>
-					<li class="nav_list"><a href="#">team</a></li>
-					<li class="nav_list"><a href="#">services</a></li>
-					<li class="nav_list"><a href="#">features</a></li>
-					<li class="nav_list"><a href="#">contact</a></li>
+					<li class="nav__list"><a href="#">home</a></li>
+					<li class="nav__list"><a href="#">about</a></li>
+					<li class="nav__list"><a href="#">work</a></li>
+					<li class="nav__list"><a href="#">team</a></li>
+					<li class="nav__list"><a href="#">services</a></li>
+					<li class="nav__list"><a href="#">features</a></li>
+					<li class="nav__list"><a href="#">contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -34,18 +45,49 @@
 
 	<section class="main">
 		<div class="container">
-			<div class="main_slider">
-				<h1 class="main_slider-title">welcome to our marketplace</h1>
-				<p class="main_slider-text">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
-					non, ornare sagittis dolor. Nulla vestibulu lacus ...
-				</p>
+			<div class="main__slider">
+				<div class="main__slider-item">
+					<h1 class="main__slider-title">welcome to our marketplace</h1>
+					<p class="main__slider-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+						non, ornare sagittis dolor. Nulla vestibulu lacus ...
+					</p>
 
-				<a href="#" class="btn main_slider-btn">view more</a>
-				<a href="#" class="btn main_slider-btn">video tour</a>
+					<a href="#" class="btn main__slider-btn">view more</a>
+					<a href="#" class="btn main__slider-btn">video tour</a>
+				</div> <!-- slider item -->
+
+				<div class="main__slider-item">
+						<h1 class="main__slider-title">we are modest</h1>
+						<p class="main__slider-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+							non, ornare sagittis dolor. Nulla vestibulu lacus ...
+						</p>
+
+						<a href="#" class="btn main__slider-btn">view more</a>
+						<a href="#" class="btn main__slider-btn">video tour</a>
+				</div> <!-- slider item -->
+		
+
+				<div class="main__slider-item">
+						<h1 class="main__slider-title">what we do</h1>
+						<p class="main__slider-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+							non, ornare sagittis dolor. Nulla vestibulu lacus ...
+						</p>
+
+						<a href="#" class="btn main__slider-btn">view more</a>
+						<a href="#" class="btn main__slider-btn">video tour</a>
+				</div> <!-- slider item -->			
 			</div>
 		</div>
 	</section> <!-- MAIN -->
+
+	<script src="assets/libs/jquery/jquery-3.6.0.min.js"></script> <!--jquery-->
+	<script src="assets/libs/slick/slick.min.js"></script> <!-- slick -->
+
+	<!-- main js -->
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
 
