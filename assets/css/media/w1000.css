@@ -153,4 +153,18 @@
 
 	}
 
+
+	/*PORTFOLIO BLOCK*/
+
+	.portfolio__album{
+		justify-content: space-around;
+	}
+	.portfolio__item{
+		flex-basis: 40%;
+		margin-bottom: 4%;
+	}
+	.portfolio__text{
+		padding-left: 0;
+		text-align: center;
+	}
 }

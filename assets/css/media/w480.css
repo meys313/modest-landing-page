@@ -50,4 +50,20 @@
 		font-size: 19px;
 	}
 
+	/*PORTFOLIO BLOCK*/
+	.portfolio__item{
+		flex-basis: 90%;
+	}
+	.portfolio__item:nth-child(4),.portfolio__item:nth-child(6){
+		display: none;
+	}
+
+	.portfolio__text{
+		font-size: 20px;
+	}
+}
+
+@media(max-width: 400px){
+
+
 }
