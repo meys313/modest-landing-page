@@ -1,7 +1,66 @@
+@media(max-width: 1024px){
+
+	/*ABOUT BLOCK*/
+	/*modest*/
+
+	.modest{
+		flex-wrap: wrap;
+	}
+	.modest__item{
+	}
+	.modest__item:first-child, .modest__item:last-child{
+		flex-basis: 100%;
+	}
+
+	.modest__item:last-child{
+		margin-top: 80px;
+	}
+
+	.modest__item:first-child .section__text{
+		width: 100%;
+		text-align: center;
+	}
+
+	.modest__social{
+		justify-content: center;
+	}
+
+	.list__item{
+		margin-bottom: 40px;
+	}
+
+
+	/*team*/
+	.team__card{
+		justify-content: space-around;
+	}
+	.team__item{
+		flex-basis: 40%;
+		margin-bottom: 40px;
+	}
+	
+}
+
 @media(max-width: 992px){
 	body.lock{
 		overflow: hidden;
 	}
+
+	/*---------------*/
+	/*SECTION*/
+	.section__title{
+		justify-content: center;
+		margin-bottom: 90px;
+	}
+
+	.section__title:before{
+		left: 50%;
+		top: 50px;
+		height: 2px;
+		width: 10%;
+		transform: translate3d(-50%, 0, 0);
+	}
+
 	.header:before{
 		z-index: 2;
 	}
@@ -93,4 +152,5 @@
 		font-size: 45px;
 
 	}
+
 }

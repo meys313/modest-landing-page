@@ -1,3 +1,40 @@
+
+@media(max-width: 360px){
+
+	.header .container{
+		max-width: 90%;
+	}
+	.container{
+		max-width: 95%;
+	}
+	/*SECTION*/
+	.section__title{
+		font-size: 28px;
+		margin-top: 50px;
+		margin-bottom: 60px;
+	}
+
+	.section__title--first{
+		margin-top: 100px;
+	}
+	.section__text{
+		font-size: 14px;
+	}
+
+
+	/*ABOUT BLOCK*/
+	/*modest*/
+	.modest{
+		margin-bottom: 50px;
+	}
+
+	/*team*/
+	.team__item{
+		flex-basis: 90%;
+	}
+}
+
+
 @media(max-width: 340px){
 
 

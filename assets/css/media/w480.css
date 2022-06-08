@@ -15,7 +15,7 @@
 	.main__slider-text{
 		font-size: 16px;
 	}
-	
+
 	.main__slider-btn{
 		border-radius: 5px;
 		display: block;
@@ -26,6 +26,18 @@
 	}
 	.main__slider-btn:last-child{
 		margin-top: 25px;
+	}
+
+
+
+	/*ABOUT BLOCK*/
+
+	/*team*/
+	.team__card{
+		justify-content: center;
+	}
+	.team__item{
+		flex-basis: 70%;
 	}
 
 }
