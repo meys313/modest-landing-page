@@ -1,0 +1,31 @@
+@media(max-width: 489px){
+	/*HEADER*/
+
+	.header__nav ul{
+		margin-top: 25%;
+	}
+
+	/*MAIN [block 1]*/
+
+	/*main slider*/
+
+	.main__slider-title{
+		font-size: 40px;
+	}
+	.main__slider-text{
+		font-size: 16px;
+	}
+	
+	.main__slider-btn{
+		border-radius: 5px;
+		display: block;
+		width: 70%;
+		margin: 45px auto 0 auto;
+		/*background-color: #fff;*/
+		/*color: #1D2126;*/
+	}
+	.main__slider-btn:last-child{
+		margin-top: 25px;
+	}
+
+}
