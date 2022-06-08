@@ -32,6 +32,12 @@
 	.team__item{
 		flex-basis: 90%;
 	}
+
+	.team__social a{
+		height: 40px;
+		width: 40px;
+		font-size: 20px;
+	}
 }
 
 
