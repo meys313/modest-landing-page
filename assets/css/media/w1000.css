@@ -167,4 +167,14 @@
 		padding-left: 0;
 		text-align: center;
 	}
+
+
+	/*WEDO BLOCK*/
+	.wedo{
+		justify-content: space-around;
+	}
+	.wedo__item{
+		flex-basis: 40%;
+
+	}
 }

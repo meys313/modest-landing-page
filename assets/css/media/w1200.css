@@ -3,4 +3,10 @@
 		width: 100%;
 		max-width: 90%;
 	}
+
+
+	/*WEDO BLOCK*/
+	.wedo__item{
+		flex-basis: 23%;
+	}
 }

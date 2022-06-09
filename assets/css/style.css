@@ -407,3 +407,34 @@
 	justify-content: center;
 	margin-top: 50px;
 }
+
+/*----------------------*/
+/*WEDO BLOCK*/
+
+.wedo{
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.wedo__item{
+	flex-basis: 22%;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+.wedo__icon{
+	margin-bottom: 35px;
+}
+.wedo__icon i{
+	font-size: 40px;
+	color: #23B7A4;
+}
+.wedo__title{
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: 700;
+	color: #292F36;
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
