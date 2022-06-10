@@ -177,4 +177,19 @@
 		flex-basis: 40%;
 
 	}
+
+
+	/*BLOCK FEATURE*/
+	/*features article*/
+	.features__article{
+		justify-content: center;
+	}
+	.article__item{
+		margin-bottom: 100px;
+		flex-basis: 60%;
+		text-align: center;
+	}
+	.article__title{
+		
+	}
 }

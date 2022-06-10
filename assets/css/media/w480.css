@@ -78,6 +78,19 @@
 	.wedo__icon i{
 		font-size: 50px;
 	}
+
+	/*BLOCK FEATURE*/
+	/*features article*/
+	.features__article{
+		
+	}
+	.article__item{
+		
+		flex-basis: 90%;
+	}
+	.article__title{
+	
+	}
 }
 
 @media(max-width: 400px){

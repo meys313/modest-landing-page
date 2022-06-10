@@ -47,6 +47,13 @@
 		text-align: center;
 	}
 
+	.team__item:hover .team__description{
+		background-color: inherit;
+	}
+	.team__item:hover .team__name, .team__item:hover .team__position{
+		color: inherit;
+	}
+
 
 	/*PORTFOLIO BLOCK*/
 	.portfolio__item{
