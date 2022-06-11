@@ -10,3 +10,13 @@
 		flex-basis: 23%;
 	}
 }
+
+@media(max-width: 1200px){
+	/*INFO FORM*/
+
+	/*form*/
+
+	.form__btn{
+		margin-top: 50px;
+	}
+}
