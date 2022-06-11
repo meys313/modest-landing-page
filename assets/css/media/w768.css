@@ -108,4 +108,24 @@
 		padding: 18px 0;
 		width: 180px;
 	}
+
+	.footer .container{
+		flex-direction: column;
+		text-align: center;
+	}
+	.footer__copyright{
+		line-height: 30px;
+	}
+	.footer__social{
+		margin-top: 40px;
+	}
+	.footer__social li{
+		justify-content: center;
+	}
+	.footer__social ul{
+		margin: 0 15px;
+	}
+	.footer__social a{
+		font-size: 20px;
+	}
 }
